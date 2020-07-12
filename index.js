@@ -7,5 +7,5 @@ function testFunc() {
 
 function superbowlWin(superbowls){
   let result = superbowls.find(wins => { return wins.result == "W"})
-  console.log(result ? result.year : undefined)
+  return (result ? result.year : undefined)
 }
